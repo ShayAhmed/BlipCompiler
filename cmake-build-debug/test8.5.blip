@@ -1,0 +1,233 @@
+
+text "Fibonacci numbers\n"
+set x 0
+set y 1
+output x text " " // 0
+set x + x y
+output y text " " // 1
+set y + x y
+output x text " " // 1
+set x + x y
+output y text " " // 1
+set y + x y
+output x text " " // 1
+set x + x y
+output y text " " // 1
+set y + x y
+output x text " " // 1
+set x + x y
+output y text " " // 1
+set y + x y
+output x text " " // 1
+set x + x y
+output y text " " // 1
+set y + x y
+output x text " " // 1
+set x + x y
+output y text " " // 1
+set y + x y
+output x text " " // 1
+set x + x y
+output y text " " // 1
+set y + x y
+output x text " " // 1
+set x + x y
+output y text " " // 1
+set y + x y
+output x text " " // 1
+set x + x y
+output y text " " // 1
+set y + x y
+output x text " " // 1
+set x + x y
+output y text " " // 1
+set y + x y
+output x text " " // 1
+
+text \n
+
+text "Sum of first n numbers forward and backward\n"
+set x 0
+set y 0
+set y + 1 y
+set x + x y
+output x text " "
+set y + 1 y
+set x + x y
+output x text " "
+set y + 1 y
+set x + x y
+output x text " "
+set y + 1 y
+set x + x y
+output x text " "
+set y + 1 y
+set x + x y
+output x text " "
+set y + 1 y
+set x + x y
+output x text " "
+set y + 1 y
+set x + x y
+output x text " "
+set y + 1 y
+set x + x y
+output x text " "
+set y + 1 y
+set x + x y
+output x text " "
+set y + 1 y
+set x + x y
+output x text " "
+set y + 1 y
+set x + x y
+output x text " "
+
+//backward
+set x - x y
+set y - y 1
+output x text " "
+set x - x y
+set y - y 1
+output x text " "
+set x - x y
+set y - y 1
+output x text " "
+set x - x y
+set y - y 1
+output x text " "
+set x - x y
+set y - y 1
+output x text " "
+set x - x y
+set y - y 1
+output x text " "
+set x - x y
+set y - y 1
+output x text " "
+set x - x y
+set y - y 1
+output x text " "
+set x - x y
+set y - y 1
+output x text " "
+set x - x y
+set y - y 1
+output x text " "
+set x - x y
+set y - y 1
+output x text " "
+
+
+text \n
+
+text "Factorial numbers forward and backward\n"
+set x 1
+set y 1
+output x text " "
+set y + 1 y
+set x * x y
+output x text " "
+set y + 1 y
+set x * x y
+output x text " "
+set y + 1 y
+set x * x y
+output x text " "
+set y + 1 y
+set x * x y
+output x text " "
+set y + 1 y
+set x * x y
+output x text " "
+set y + 1 y
+set x * x y
+output x text " "
+set y + 1 y
+set x * x y
+output x text " "
+set y + 1 y
+set x * x y
+output x text " "
+set y + 1 y
+set x * x y
+output x text " "
+set y + 1 y
+set x * x y
+output x text " "
+set y + 1 y
+set x * x y
+output x text " "
+set x / x y
+set y - y 1
+output x text " "
+set x / x y
+set y - y 1
+output x text " "
+set x / x y
+set y - y 1
+output x text " "
+set x / x y
+set y - y 1
+output x text " "
+set x / x y
+set y - y 1
+output x text " "
+set x / x y
+set y - y 1
+output x text " "
+set x / x y
+set y - y 1
+output x text " "
+set x / x y
+set y - y 1
+output x text " "
+set x / x y
+set y - y 1
+output x text " "
+set x / x y
+set y - y 1
+output x text " "
+set x / x y
+set y - y 1
+output x text " "
+
+
+text \n
+text "Displaying the "rollover" property of modulus\n"
+text "x mod 4 = "
+set x 0
+set y 4
+output % x y text " "
+set x + 1 x
+output % x y text " "
+set x + 1 x
+output % x y text " "
+set x + 1 x
+output % x y text " "
+set x + 1 x
+output % x y text " "
+set x + 1 x
+output % x y text " "
+set x + 1 x
+output % x y text " "
+set x + 1 x
+output % x y text " "
+set x + 1 x
+output % x y text " "
+set x + 1 x
+output % x y text " "
+set x + 1 x
+output % x y text " "
+set x + 1 x
+output % x y text " "
+set x + 1 x
+output % x y text " "
+set x + 1 x
+output % x y text " "
+set x + 1 x
+output % x y text " "
+set x + 1 x
+output % x y text " "
+set x + 1 x
+text \n

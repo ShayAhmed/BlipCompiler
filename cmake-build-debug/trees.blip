@@ -1,0 +1,68 @@
+
+
+// Test 3 - Unary Tree Tests
+text "___________________Unary Tree Tests___________________\r\n"
+set giantTrees 0
+text "Expression: ~ ! ~ ! ~ ! 1000 \n"
+set x ~ ! ~ ! ~ ! 1000
+text "Your output: " output x text "\nAnswer == " output giantTrees text \n
+set pass == x giantTrees
+set passed + passed pass
+output passed
+text " tests passed\n"
+set failed + failed ! pass
+output failed
+text " tests failed\n"
+text \r\n
+
+set giantTrees ~ 1
+text "Expression: ~ ~ ~ ! ! 42 \n"
+set x ~ ~ ~ ! ! 42
+text "Your output: " output x text "\nAnswer == " output giantTrees text \n
+set pass == x giantTrees
+set passed + passed pass
+output passed
+text " tests passed\n"
+set failed + failed ! pass
+output failed
+text " tests failed\n"
+text \r\n
+
+set giantTrees  1
+text "Expression: ! ~ ~ ! 3 \n"
+set x ! ~ ~ ! 3
+text "Your output: " output x text "\nAnswer == " output giantTrees text \n
+set pass == x giantTrees
+set passed + passed pass
+output passed
+text " tests passed\n"
+set failed + failed ! pass
+output failed
+text " tests failed\n"
+text \r\n
+
+set giantTrees  1
+text "Expression: ! ! ! ! ! 0 \n"
+set x ! ! ! ! ! 0
+text "Your output: " output x text "\nAnswer == " output giantTrees text \n
+set pass == x giantTrees
+set passed + passed pass
+output passed
+text " tests passed\n"
+set failed + failed ! pass
+output failed
+text " tests failed\n"
+text \r\n
+
+set giantTrees ~ 20
+text "Expression: ~ ~ ~ ~ ~ 20 \n"
+set x ~ ~ ~ ~ ~ 20
+text "Your output: " output x text "\nAnswer == " output giantTrees text \n
+set pass == x giantTrees
+set passed + passed pass
+output passed
+text " tests passed \n"
+set failed + failed ! pass
+output failed
+text " tests failed\n"
+text \r\n

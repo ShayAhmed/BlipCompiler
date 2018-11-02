@@ -1,0 +1,3 @@
+/cygdrive/c/Users/sashe/CLionProjects/Project 8 Interpreter A/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/sashe/CLionProjects/Project 8 Interpreter A/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/c/Users/sashe/CLionProjects/Project 8 Interpreter A/cmake-build-debug/CMakeFiles/Project_8_Interpreter_A.dir

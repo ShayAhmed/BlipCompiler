@@ -1,0 +1,80 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/sashe/CLionProjects/Project 8 Interpreter A/ExpTree.cpp
+ExpTree.h
+/cygdrive/c/Users/sashe/CLionProjects/Project 8 Interpreter A/ExpTree.h
+
+/cygdrive/c/Users/sashe/CLionProjects/Project 8 Interpreter A/ExpTree.h
+vector
+-
+iostream
+-
+String.h
+/cygdrive/c/Users/sashe/CLionProjects/Project 8 Interpreter A/String.h
+
+/cygdrive/c/Users/sashe/CLionProjects/Project 8 Interpreter A/Input.cpp
+stdio.h
+-
+stdlib.h
+-
+assert.h
+-
+Parse.h
+/cygdrive/c/Users/sashe/CLionProjects/Project 8 Interpreter A/Parse.h
+Input.h
+/cygdrive/c/Users/sashe/CLionProjects/Project 8 Interpreter A/Input.h
+
+/cygdrive/c/Users/sashe/CLionProjects/Project 8 Interpreter A/Input.h
+
+/cygdrive/c/Users/sashe/CLionProjects/Project 8 Interpreter A/Linkedlist.cpp
+iostream
+-
+Linkedlist.h
+/cygdrive/c/Users/sashe/CLionProjects/Project 8 Interpreter A/Linkedlist.h
+
+/cygdrive/c/Users/sashe/CLionProjects/Project 8 Interpreter A/Linkedlist.h
+iostream
+-
+String.h
+/cygdrive/c/Users/sashe/CLionProjects/Project 8 Interpreter A/String.h
+
+/cygdrive/c/Users/sashe/CLionProjects/Project 8 Interpreter A/Parse.h
+stdint.h
+-
+
+/cygdrive/c/Users/sashe/CLionProjects/Project 8 Interpreter A/String.h
+stdlib.h
+-
+stdint.h
+-
+string
+-
+
+/cygdrive/c/Users/sashe/CLionProjects/Project 8 Interpreter A/main.cpp
+stdio.h
+-
+stdlib.h
+-
+assert.h
+-
+Input.h
+/cygdrive/c/Users/sashe/CLionProjects/Project 8 Interpreter A/Input.h
+Parse.h
+/cygdrive/c/Users/sashe/CLionProjects/Project 8 Interpreter A/Parse.h
+String.h
+/cygdrive/c/Users/sashe/CLionProjects/Project 8 Interpreter A/String.h
+string
+-
+iostream
+-
+ExpTree.h
+/cygdrive/c/Users/sashe/CLionProjects/Project 8 Interpreter A/ExpTree.h
+Linkedlist.h
+/cygdrive/c/Users/sashe/CLionProjects/Project 8 Interpreter A/Linkedlist.h
+
